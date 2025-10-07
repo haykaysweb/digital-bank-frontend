@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+<<<<<<< HEAD
 * {
   font-family: "Public Sans", sans-serif;
+=======
+*{
+    font-family: "Public Sans", sans-serif;
+>>>>>>> 28db14426e250ded7738a6ed73433d3d25d8fffa
 }
 
 :root {
