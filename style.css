@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --Blue950: hsl(233, 26%, 24%);
+  --Green500: hsl(136, 64%, 51%);
+  --Cyan400: hsl(192, 69%, 51%);
+  --Gray600: hsl(233, 8%, 62%);
+  --Gray100: hsl(220, 16%, 96%);
+  --Gray50: hsl(0, 0%, 98%);
+  --White: hsl(0, 100%, 100%);
+  --font-family: "Public Sans", sans-serif;
+}
+
+P {
+  font-size: 18px;
+}
