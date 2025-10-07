@@ -1,24 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Digitalbank landing page</title>
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <link rel="stylesheet" href="./style.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | Digitalbank landing page</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./style.css" />
 
-  Home
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="max-w-[1200px] mx-auto bg-[var(--White)]">
+      <!-- content starts from here -->
+      <img
+        src="images/bg-intro-mobile.svg"
+        alt=""
+        class="w-full lg:hidden absolute top-0"
+      />
+      <img
+        src="images/bg-intro-desktop.svg"
+        alt=""
+        class="hidden lg:block absolute top-0 right-0 w-[60%] h-[600px]"
+      />
+      <div class="flex flex-col justify-center min-h-screen">
+        <img
+          src="images/image-mockups.png"
+          alt=""
+          class="relative lg:absolute lg:right-[-5%] lg:mask-clip-content"
+        />
+
+        <div class="relative flex flex-col lg:w-[40%]">
+          <h1
+            class="text-center lg:text-start text-[var(--Blue950)] py-5 font-semibold text-[48px]"
+          >
+            Next generation digital banking
+          </h1>
+          <p class="text-center lg:text-start text-[var(--Gray600)] py-5">
+            Take your financial life online. Your Digitalbank account will be a
+            one-stop-shop for spending, saving, budgeting, investing, and much
+            more.
+          </p>
+          <button
+            class="text-[var(--White)] py-5 px-12 font-bold rounded-[40px] bg-linear-to-bl from-green-500 to-cyan-400 w-[220px]"
+          >
+            Request Invite
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+
+<!-- Home
   About
   Contact
   Blog
@@ -98,6 +149,4 @@
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
-</html>
+  </div> -->
